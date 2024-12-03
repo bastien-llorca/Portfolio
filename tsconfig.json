@@ -1,3 +1,8 @@
 {
-	"extends": "astro/tsconfigs/base"
+  "extends": "@astrojs/tsconfig/strict",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  }
 }
