@@ -1,8 +1,0 @@
-{
-  "extends": "@astrojs/tsconfig/strict",
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true
-  }
-}
